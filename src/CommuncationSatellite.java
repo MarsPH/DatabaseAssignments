@@ -1,2 +1,3 @@
-public class CommuncationSatellite {
+public class CommuncationSatellite extends Satellite implements ICommunicable {
+
 }

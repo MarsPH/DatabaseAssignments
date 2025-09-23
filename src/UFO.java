@@ -1,2 +1,2 @@
-public class UFO {
+public  abstract class UFO implements IOrbitEarth {
 }

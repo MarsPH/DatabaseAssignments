@@ -1,2 +1,3 @@
-public class Drone {
+public abstract class Drone {
+
 }

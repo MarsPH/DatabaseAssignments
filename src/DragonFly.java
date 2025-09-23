@@ -7,7 +7,12 @@
         this.Name = name;
         this.Type = type;
     }
-    @Override
+
+     public DragonFly() {
+
+     }
+
+     @Override
      public void TakeOff()
      {
          System.out.println("DragonFly takes off.");

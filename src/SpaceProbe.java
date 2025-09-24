@@ -1,4 +1,4 @@
-public class SpaceProbe extends UFO implements IOrbitEarth{
+public class SpaceProbe extends UFO {
 
 
     @Override
@@ -19,5 +19,10 @@ public class SpaceProbe extends UFO implements IOrbitEarth{
     @Override
     public void Fly() {
         System.out.println(this.getClass().getSimpleName() + "Flying");
+    }
+
+    @Override
+    void MakeSpaceNoises() {
+
     }
 }

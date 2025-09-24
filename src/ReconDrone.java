@@ -1,4 +1,4 @@
-public class ReconDrone extends Drone implements IAutopilot, ICameraEnabled, IMilitary, IFlightEnabled, INavigable, Itrackable, ISensorEquipped, IEnergySource{
+public class ReconDrone extends Drone implements IAutopilot, ICameraEnabled, IMilitary, INavigable  {
 
     @Override
     public void EngageAutopilot() {
@@ -8,12 +8,6 @@ public class ReconDrone extends Drone implements IAutopilot, ICameraEnabled, IMi
     @Override
     public void CaptureImage() {
 System.out.println(this.getClass().getSimpleName() + "I am capturing image");
-    }
-
-    @Override
-    public String GetEnergyType() {
-        System.out.println(this.getClass().getSimpleName() + "I am capturing energy type");
-        return "";
     }
 
     @Override

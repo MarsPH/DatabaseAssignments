@@ -19,4 +19,9 @@ public class AlienShip  extends UFO{
     public void Fly() {
         System.out.println(this.getClass().getSimpleName() + "Flying off");
     }
+
+    @Override
+    void MakeSpaceNoises() {
+        System.out.println(this.getClass().getSimpleName() + "Making Space Noises");
+    }
 }
